@@ -1,5 +1,7 @@
+import { Navbar } from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
+import { MobileNav } from '@/components/MobileNav'
 
 
 export const metadata: Metadata = {
@@ -14,7 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='font-norse bg-slate-950 text-white'>{children}</body>
+      <body className='font-norse bg-slate-950 text-white'>
+        <Navbar/>
+        <div className="md:hidden block">
+        <MobileNav/>
+      </div>
+        {children}
+        </body>
     </html>
   )
 }

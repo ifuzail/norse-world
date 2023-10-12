@@ -10,10 +10,6 @@ import { GodCard } from "@/components/cards/GodCard"
 const page = () => {
   return (
     <div>
-      <Navbar/>
-      <div className="md:hidden block">
-        <MobileNav/>
-      </div>
       <Hero />
      <Realms/>
     <NorseGods/>

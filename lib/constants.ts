@@ -161,3 +161,30 @@ export const timeline = [
 
 ]
 
+
+export const TimelineEvents = [
+    {
+        id: 1,
+        Title: 'The Vast Void of Ginnungagap',
+        Description: 'Ginnungagap is a concept from Norse mythology that represents the primordial void or abyss that existed before the creation of the world. It is a central element in the Norse creation story. The term "Ginnungagap" is often translated as "yawning void" or "gaping abyss."',
+        ImageUrl: '/assets/images/space.webp',
+    },
+    {
+        id: 2,
+        Title: 'Creation of the World',
+        Description: 'In Norse mythology, the creation of the world is a central theme, and it is described as the result of the collision between the fiery realm of Muspelheim and the icy realm of Niflheim in the primordial void of Ginnungagap.',
+        ImageUrl: '/assets/images/vanaheim3.webp',
+    },
+    {
+        id: 3,
+        Title: 'Creation of the World Tree',
+        Description: 'In Norse mythology, the World Tree is known as Yggdrasil, and its creation is intertwined with the broader narrative of the formation of the cosmos.',
+        ImageUrl: '/assets/images/tree.webp',
+    },
+    {
+        id: 4,
+        Title: 'The Aesir and Vanir',
+        Description: 'In Norse mythology, the Aesir and the Vanir are two distinct groups of deities, and their interactions are central to the mythology. These two groups of gods were initially separate but eventually came together through a treaty and exchange of hostages',
+        ImageUrl: '/assets/images/vanaheim2.webp',
+    },
+]
