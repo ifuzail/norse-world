@@ -15,7 +15,7 @@ export const TimelineCard = () => {
       {TimelineEvents.map((event) => (
 
      
-      <Card className="md:w-48 w-full bg-zinc-900" key={event.id}>
+      <Card className="md:w-48 w-full bg-zinc-900 transform transition-transform hover:scale-105 cursor-pointer hover:bg-zinc-600 hover:text-zinc-800" key={event.id}>
         <CardHeader className="text-center">
           <CardTitle className="text-gray-100">
             {event.Title}

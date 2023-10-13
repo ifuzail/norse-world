@@ -187,4 +187,28 @@ export const TimelineEvents = [
         Description: 'In Norse mythology, the Aesir and the Vanir are two distinct groups of deities, and their interactions are central to the mythology. These two groups of gods were initially separate but eventually came together through a treaty and exchange of hostages',
         ImageUrl: '/assets/images/vanaheim2.webp',
     },
+    {
+        id: 5,
+        Title: 'Creation of First Humans',
+        Description: "In Norse mythology, the creation of the first humans is a significant event in the context of the broader cosmogony. The first humans were created by the gods Odin, Vili, and Ve. Here's the story of the creation of the first humans, known as Ask and Embla",
+        ImageUrl: '/assets/images/earth.webp',
+    },
+    {
+        id: 6,
+        Title: 'Making of Nine Worlds',
+        Description: "In Norse mythology, the cosmos is often depicted as consisting of Nine Worlds, each of which is a distinct realm inhabited by various beings, including gods, giants, humans, and other mythical creatures.",
+        ImageUrl: '/assets/images/the nine worlds.webp',
+    },
+    {
+        id: 7,
+        Title: 'The beginning of Ragnarök',
+        Description: 'Ragnarök, often referred to as the "Twilight of the Gods" or the "Doom of the Gods," is a cataclysmic event in Norse mythology that signifies the end of the world as it is known.',
+        ImageUrl: '/assets/images/ragnarok.webp',
+    },
+    {
+        id: 8,
+        Title: 'The beginning of Afterlife',
+        Description: 'In Norse mythology, the concept of the afterlife is complex and involves various realms where different beings go after death, depending on how they lived and died. The afterlife in Norse mythology is not a single, uniform realm but is divided into several distinct places. ',
+        ImageUrl: '/assets/images/valhalla.webp',
+    },
 ]
