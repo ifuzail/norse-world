@@ -18,7 +18,7 @@ export const RealmCard = () => {
       {realms.map((realm) => (
         <HoverCard key={realm.id}>
           <HoverCardTrigger asChild>
-            <div className="h-48 w-96  overflow-hidden bg-slate-900 cursor-pointer rounded-lg">
+            <div className="h-48 w-96  overflow-hidden bg-slate-900 cursor-pointer rounded-lg border-2  ">
                 <div className="relative ">
                 <Image
                   src={realm.imageUrl}
@@ -27,13 +27,13 @@ export const RealmCard = () => {
                   alt="images"
                   className="object-cover"
                 />
-                <h1 className="p-2 absolute z-10 top-36 left-3 bg-gradient-to-tr from-yellow-400 via-orange-600 to-red-600 text-zinc-900 text-4xl font-bold ">
+                <h1 className="p-4 rounded-lg absolute z-10 top-28 bg-zinc-900 left-3 text-3xl font-bold ">
                   {realm.name}
                 </h1>
                 </div>
             </div>
           </HoverCardTrigger>
-          <HoverCardContent className=" bg-slate-950 w-[500px]">
+          <HoverCardContent className=" bg-slate-950 w-[500px]" side="right">
             <div>
               <Card className=" w-full overflow-hidden">
                 <CardHeader>

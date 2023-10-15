@@ -34,8 +34,8 @@ export const TimelineCard = () => {
             </CardDescription>
           </div>
         </CardHeader>
-        <CardFooter className="md:ml-5">
-          <Button variant={"norse"} className="hover:text-white">
+        <CardFooter className="md:ml-7">
+          <Button variant={"secondary"} className="hover:text-white">
             Read more
           </Button>
         </CardFooter>

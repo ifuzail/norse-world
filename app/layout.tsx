@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='font-norse bg-slate-950 text-white'>
+      <body className='font-norse bg-neutral-950 text-white'>
         <Navbar/>
         <div className="md:hidden block">
         <MobileNav/>

@@ -37,7 +37,7 @@ export const Timeline = () => {
             
           />
           <div className="mt-5 absolute">    
-            <Button variant={"norse"} className="hover:text-white">
+            <Button variant={"secondary"} size='lg' className="hover:text-white hover:bg-black">
                 Show Full Timeline
             </Button>
           </div>
